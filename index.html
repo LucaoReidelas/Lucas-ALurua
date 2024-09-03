@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Casa das Sombras</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Era uma noite chuvosa e o vento uivava através das árvores. Julia, uma jovem jornalista, recebeu um convite misterioso para passar uma noite na Casa das Sombras, uma mansão abandonada há décadas. Movida pela curiosidade, decidiu aceitar o desafio.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na casa</button>
+            <button class="btn-proximo" data-proximo="2">Ir embora</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Julia entrou na mansão. O interior estava em completo abandono, com poeira e teias de aranha por toda parte. Encontrou uma biblioteca com um diário antigo que falava sobre "sombras que se movem" e "presenças invisíveis".</p>
+            <button class="btn-proximo" data-proximo="3">Explorar o porão</button>
+            <button class="btn-proximo" data-proximo="4">Ler mais o diário</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Julia decidiu ir embora, mas ao sair, sentiu um frio na espinha e ouviu sussurros no vento. A casa parecia estar chamando-a de volta, e ela se perguntou se deveria ter ficado.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar e entrar na casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No porão, Julia encontrou uma caixa com símbolos estranhos e um livro antigo encadernado em pele humana. Quando pegou o livro, sombras começaram a se contorcer ao redor dela e uma presença maligna se fez sentir.</p>
+            <button class="btn-proximo" data-proximo="5">Destruir o livro</button>
+            <button class="btn-proximo" data-proximo="6">Tentar escapar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Julia leu mais sobre as sombras e descobriu que elas eram almas presas pela antiga casa. O livro tinha os segredos para controlar essas almas e interromper o ciclo de sofrimento.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para o porão</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Julia destruiu o livro, e as sombras se contorceram em agonia. O silêncio tomou conta da casa, e ela sentiu um alívio momentâneo. Correu para fora, mas a mansão parecia ter mudado, com uma presença ainda mais opressiva.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Julia tentou escapar, mas as sombras a rodearam e a força invisível a puxou de volta. Ela percebeu que não poderia fugir da casa, e sua única esperança era enfrentar o mal de frente.</p>
+            <button class="btn-proximo" data-proximo="5">Destruir o livro</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Julia chegou em casa, mas nunca mais foi vista. A Casa das Sombras permaneceu na estrada deserta, seu mistério intacto. Alguns dizem que, em noites de tempestade, é possível ouvir os lamentos das almas presas na casa.</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar a história</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
